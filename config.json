@@ -1,0 +1,12 @@
+{
+  "environment": "production",
+  "database": {
+    "host": "db.production.example.com",
+    "port": 5432,
+    "connectionString": "postgres://admin:P@ssw0rd_Prod_9988!@db.production.example.com:5432/main_db"
+  },
+  "aws_integration": {
+    "access_key_id": "AKIAIOSFODNN7EXAMPLE",
+    "secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  }
+}
