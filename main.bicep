@@ -1,7 +1,6 @@
 param location string = resourceGroup().location
 param serverName string = 'my-test-sql-server'
 
-// Secret expus direct in cod
 var adminUser = 'dbadmin'
 var adminPassword = 'SuperSecretPassword123!@#'
 
