@@ -1,7 +1,6 @@
 import requests
 
 def get_user_data():
-    # Cheie de acces hardcodata pentru GitHub
     github_token = "ghp_AbCdEfGhIjKlMnOpQrStUvWxYz1234567890"
     
     headers = {
