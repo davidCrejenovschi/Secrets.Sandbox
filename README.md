@@ -33,5 +33,3 @@ The detector tool connects to a Pull Request opened from the `add-dummy-secrets`
 
 - **`main`** branch — clean, contains only this README. No secrets, no `file.py`.
 - **`add-dummy-secrets`** branch — contains the dummy `file.py` with fake credentials used for detector testing. A Pull Request is opened from this branch into `main` so the MCP Secrets Detector can scan the diff and post inline review comments.
-
-*Made with ☕ in Cluj, powered by MHP - A Porsche Company workshop.*
